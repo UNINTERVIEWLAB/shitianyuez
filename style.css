@@ -244,3 +244,15 @@ footer p{margin:0}
 .blog-entry p{max-width:700px;margin:0;color:var(--muted);font-size:12px;line-height:1.8}
 .blog-entry>b{color:var(--blue);font-size:12px;white-space:nowrap}
 @media(max-width:560px){.blog-shell{width:min(100% - 28px,680px);padding:26px 20px}.blog-entry{align-items:flex-start;flex-direction:column;gap:18px}.blog-entry:hover{padding-left:0;background:none}.blog-entry h3{font-size:23px}.blog-hero{min-height:390px}}
+
+/* Recruiter-facing portfolio */
+.professional-title{font-size:clamp(19px,2.1vw,28px);line-height:1.5;color:var(--navy);margin:24px 0 0}
+.personal-hero h2{font:500 clamp(32px,4vw,54px)/1.2 Georgia,"Songti SC",serif;margin:18px 0}
+.portfolio-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.portfolio-secondary{width:min(1120px,calc(100% - 48px));margin:0 auto 70px;padding:28px 0;border-top:1px solid var(--line)}
+.portfolio-secondary p{color:var(--muted);line-height:1.8}
+.portfolio-secondary a{display:inline-block;margin:12px 28px 0 0;color:var(--blue)}
+.work-entry p+p{margin-top:10px}.project-link{color:var(--blue);font-size:12px;font-weight:700;white-space:nowrap}
+.work-entry,.cover{scroll-margin-top:100px}
+@media(max-width:900px){.portfolio-grid{grid-template-columns:1fr}.topbar nav{flex-wrap:wrap}}
+@media(max-width:560px){.portfolio-secondary{width:calc(100% - 40px)}}
